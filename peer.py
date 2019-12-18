@@ -31,9 +31,9 @@ def leader_heartbeat():
 
 # if there is a message from broker, run this function
 def on_message(client, userdata, message):
-	global counter
 	if str(message.payload.decode("utf-8")) == "reset":
 		print("counter reset")
+		global counter
 		counter = random.randint(randlow, randhigh)
 
 # function for the client to loop forever
