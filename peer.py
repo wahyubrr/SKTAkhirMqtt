@@ -1,5 +1,6 @@
 # anggota kelompok:
 # Wahyu Berlianto 175150307111010
+# Akbar Wira Bramantya 175150307111012
 # Satya Pradhana 175150307111013
 
 import paho.mqtt.client as mqtt #import the client1
